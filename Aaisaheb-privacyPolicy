@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Privacy Policy | Aaisaheb Business</title>
+  <meta
+    name="description"
+    content="Privacy Policy for Aaisaheb Business. Learn how we collect, use, protect, and manage your personal information."
+  >
+
+  <style>
+    :root {
+      --primary: #7c3aed;
+      --primary-dark: #5b21b6;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --background: #f8fafc;
+      --card: #ffffff;
+      --border: #e5e7eb;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.7;
+      color: var(--text);
+      background: var(--background);
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+      color: white;
+      padding: 70px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 17px;
+      opacity: 0.9;
+    }
+
+    .container {
+      width: min(100% - 40px, 900px);
+      margin: 40px auto;
+    }
+
+    .policy-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 45px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+    }
+
+    .effective-date {
+      color: var(--muted);
+      margin-bottom: 35px;
+      font-size: 14px;
+    }
+
+    .policy-section {
+      margin-bottom: 35px;
+    }
+
+    .policy-section h2 {
+      font-size: 24px;
+      color: #111827;
+      margin-bottom: 12px;
+    }
+
+    .policy-section p {
+      margin-bottom: 12px;
+    }
+
+    ul {
+      margin: 12px 0 0 25px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .contact-box {
+      background: #f5f3ff;
+      border-left: 4px solid var(--primary);
+      padding: 22px;
+      border-radius: 8px;
+      margin-top: 15px;
+    }
+
+    .contact-box strong {
+      color: #111827;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    footer a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        padding: 50px 20px;
+      }
+
+      header h1 {
+        font-size: 32px;
+      }
+
+      .container {
+        width: min(100% - 24px, 900px);
+        margin: 25px auto;
+      }
+
+      .policy-card {
+        padding: 25px 20px;
+      }
+
+      .policy-section h2 {
+        font-size: 21px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Privacy Policy</h1>
+    <p>Aaisaheb Business</p>
+  </header>
+
+  <main class="container">
+    <article class="policy-card">
+
+      <p class="effective-date">
+        <strong>Effective Date:</strong> [Insert Date]
+      </p>
+
+      <section class="policy-section">
+        <h2>1. Information We Collect</h2>
+
+        <p>
+          We may collect personal information that you provide when you
+          visit our website, use our services, contact us, or interact
+          with Aaisaheb Business.
+        </p>
+
+        <ul>
+          <li>Full name</li>
+          <li>Mobile or telephone number</li>
+          <li>Email address</li>
+          <li>Billing or delivery address</li>
+          <li>Business or company information</li>
+          <li>Payment and transaction details, where applicable</li>
+          <li>Information provided when contacting us</li>
+          <li>Information about your use of our website or services</li>
+          <li>Device, browser, IP address, and basic technical information</li>
+        </ul>
+      </section>
+
+      <section class="policy-section">
+        <h2>2. How We Use Your Information</h2>
+
+        <p>We may use your personal information to:</p>
+
+        <ul>
+          <li>Provide and manage our products or services</li>
+          <li>Process orders, payments, or service requests</li>
+          <li>Respond to questions and enquiries</li>
+          <li>Communicate with you about our services</li>
+          <li>Send important service-related notifications</li>
+          <li>Improve our website, products, and customer experience</li>
+          <li>Prevent fraud, misuse, or unauthorized activity</li>
+          <li>Comply with applicable legal and regulatory requirements</li>
+        </ul>
+      </section>
+
+      <section class="policy-section">
+        <h2>3. Sharing of Information</h2>
+
+        <p>
+          We do not sell or rent your personal information.
+          We may share information with trusted third parties when
+          reasonably necessary, including:
+        </p>
+
+        <ul>
+          <li>Payment processors</li>
+          <li>Delivery or logistics providers</li>
+          <li>Website, hosting, and technology service providers</li>
+          <li>Professional advisers</li>
+          <li>Government authorities or law-enforcement agencies when legally required</li>
+        </ul>
+      </section>
+
+      <section class="policy-section">
+        <h2>4. Cookies and Tracking Technologies</h2>
+
+        <p>
+          Our website may use cookies and similar technologies to keep
+          the website functioning properly, remember preferences,
+          understand website usage, and improve website performance
+          and user experience.
+        </p>
+
+        <p>
+          You may be able to control cookies through your browser settings.
+          Disabling certain cookies may affect website functionality.
+        </p>
+      </section>
+
+      <section class="policy-section">
+        <h2>5. Data Security</h2>
+
+        <p>
+          We take reasonable technical and organizational measures to
+          protect your personal information against unauthorized access,
+          alteration, disclosure, loss, or misuse.
+        </p>
+
+        <p>
+          However, no method of transmitting or storing information online
+          can be guaranteed to be completely secure.
+        </p>
+      </section>
+
+      <section class="policy-section">
+        <h2>6. Data Retention</h2>
+
+        <p>
+          We retain personal information only for as long as reasonably
+          necessary for the purposes described in this Privacy Policy,
+          including providing services, maintaining business records,
+          resolving disputes, and complying with legal obligations.
+        </p>
+
+        <p>
+          When information is no longer required, we may securely delete
+          or anonymize it.
+        </p>
+      </section>
+
+      <section class="policy-section">
+        <h2>7. Your Rights</h2>
+
+        <p>
+          Depending on applicable law, you may have rights concerning
+          your personal information, including the right to:
+        </p>
+
+        <ul>
+          <li>Request access to personal information we hold about you</li>
+          <li>Request correction of inaccurate information</li>
+          <li>Request deletion of information where legally permitted</li>
+          <li>Withdraw consent where processing is based on consent</li>
+          <li>Raise a complaint regarding our handling of your information</li>
+        </ul>
+      </section>
+
+      <section class="policy-section">
+        <h2>8. Children's Privacy</h2>
+
+        <p>
+          Our services are not intended to knowingly collect personal
+          information from children where such collection is prohibited
+          by applicable law.
+        </p>
+
+        <p>
+          If you believe that a child has provided us with personal
+          information, please contact us so that we can take appropriate action.
+        </p>
+      </section>
+
+      <section class="policy-section">
+        <h2>9. Third-Party Websites</h2>
+
+        <p>
+          Our website may contain links to third-party websites or services.
+          We are not responsible for the privacy practices, content, or
+          security of those third parties.
+        </p>
+
+        <p>
+          We recommend reviewing the privacy policies of any third-party
+          websites you visit.
+        </p>
+      </section>
+
+      <section class="policy-section">
+        <h2>10. Changes to This Privacy Policy</h2>
+
+        <p>
+          We may update this Privacy Policy from time to time to reflect
+          changes in our services, technology, or applicable legal requirements.
+        </p>
+
+        <p>
+          The updated version will be posted on our website with a revised
+          "Effective Date."
+        </p>
+      </section>
+
+      <section class="policy-section">
+        <h2>11. Contact Us</h2>
+
+        <p>
+          If you have questions, concerns, or requests regarding this
+          Privacy Policy, please contact us.
+        </p>
+
+        <div class="contact-box">
+          <p><strong>Aaisaheb Business</strong></p>
+          <p>Address: [Insert Business Address]</p>
+          <p>
+            Email:
+            <a href="mailto:your-email@example.com">
+              [Insert Business Email]
+            </a>
+          </p>
+          <p>Phone: [Insert Phone Number]</p>
+          <p>Website: [Insert Website URL]</p>
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <footer>
+    <p>
+      &copy; <span id="year"></span> Aaisaheb Business. All rights reserved.
+    </p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
