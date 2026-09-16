@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Data Deletion Policy | Aaisaheb</title>
+
+  <style>
+    :root{
+      --primary:#7a1f1f;
+      --primary-dark:#4f1111;
+      --gold:#c79a3b;
+      --cream:#fffaf2;
+      --text:#222;
+      --muted:#666;
+      --white:#fff;
+      --border:#eadfce;
+      --success:#176b3a;
+    }
+
+    *{box-sizing:border-box;margin:0;padding:0}
+
+    body{
+      font-family:Inter,Arial,Helvetica,sans-serif;
+      background:var(--cream);
+      color:var(--text);
+      line-height:1.7;
+    }
+
+    a{color:var(--primary);font-weight:700;text-decoration:none}
+    a:hover{text-decoration:underline}
+
+    .topbar{
+      height:7px;
+      background:linear-gradient(90deg,var(--primary-dark),var(--gold),var(--primary));
+    }
+
+    header{
+      background:var(--white);
+      border-bottom:1px solid var(--border);
+      padding:22px 20px;
+    }
+
+    .nav{
+      max-width:1100px;
+      margin:auto;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:20px;
+    }
+
+    .brand{
+      font-size:25px;
+      font-weight:900;
+      letter-spacing:.5px;
+      color:var(--primary-dark);
+    }
+
+    .brand span{color:var(--gold)}
+
+    .badge{
+      background:#fff5df;
+      color:var(--primary-dark);
+      border:1px solid #efd9a9;
+      padding:7px 13px;
+      border-radius:30px;
+      font-size:13px;
+      font-weight:800;
+    }
+
+    .hero{
+      max-width:1100px;
+      margin:45px auto 25px;
+      padding:0 20px;
+    }
+
+    .hero h1{
+      font-size:clamp(34px,5vw,54px);
+      line-height:1.1;
+      color:var(--primary-dark);
+      margin-bottom:15px;
+    }
+
+    .hero p{
+      max-width:800px;
+      color:var(--muted);
+      font-size:17px;
+    }
+
+    .updated{
+      margin-top:13px;
+      font-size:13px;
+      color:#777;
+    }
+
+    main{
+      max-width:1100px;
+      margin:0 auto 60px;
+      padding:0 20px;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns:2fr 1fr;
+      gap:24px;
+      align-items:start;
+    }
+
+    .card{
+      background:var(--white);
+      border:1px solid var(--border);
+      border-radius:18px;
+      padding:28px;
+      box-shadow:0 10px 35px rgba(80,35,10,.06);
+    }
+
+    .card + .card{margin-top:20px}
+
+    h2{
+      color:var(--primary-dark);
+      font-size:23px;
+      margin-bottom:10px;
+    }
+
+    h3{
+      color:var(--primary-dark);
+      margin:18px 0 7px;
+      font-size:17px;
+    }
+
+    p{margin-bottom:12px}
+    ul{padding-left:22px;margin:10px 0}
+    li{margin:6px 0}
+
+    .steps{
+      display:grid;
+      gap:12px;
+      margin-top:15px;
+    }
+
+    .step{
+      display:flex;
+      gap:13px;
+      padding:14px;
+      border:1px solid var(--border);
+      border-radius:13px;
+      background:#fffdf9;
+    }
+
+    .num{
+      min-width:32px;
+      height:32px;
+      border-radius:50%;
+      display:grid;
+      place-items:center;
+      background:var(--primary);
+      color:white;
+      font-weight:900;
+    }
+
+    .notice{
+      border-left:4px solid var(--gold);
+      background:#fff8e9;
+      padding:15px 17px;
+      border-radius:8px;
+      margin:18px 0;
+    }
+
+    .contact-box{
+      background:var(--primary-dark);
+      color:white;
+      border-radius:18px;
+      padding:26px;
+    }
+
+    .contact-box h2{color:white}
+    .contact-box p{color:#f4e9e0}
+
+    .contact-item{
+      display:block;
+      padding:12px 0;
+      border-bottom:1px solid rgba(255,255,255,.16);
+    }
+
+    .contact-item:last-child{border-bottom:0}
+    .contact-item strong{display:block;color:#f3d38a}
+    .contact-box a{color:#fff}
+
+    .request{
+      margin-top:20px;
+      background:#fff;
+      border:1px solid var(--border);
+      border-radius:18px;
+      padding:24px;
+    }
+
+    label{
+      display:block;
+      font-weight:800;
+      margin:13px 0 6px;
+    }
+
+    input,textarea{
+      width:100%;
+      padding:12px 13px;
+      border:1px solid #d9cbb8;
+      border-radius:9px;
+      font:inherit;
+      outline:none;
+    }
+
+    input:focus,textarea:focus{
+      border-color:var(--primary);
+      box-shadow:0 0 0 3px rgba(122,31,31,.08);
+    }
+
+    textarea{min-height:110px;resize:vertical}
+
+    button{
+      width:100%;
+      margin-top:16px;
+      border:0;
+      border-radius:10px;
+      padding:13px 18px;
+      background:var(--primary);
+      color:white;
+      font-size:16px;
+      font-weight:900;
+      cursor:pointer;
+    }
+
+    button:hover{background:var(--primary-dark)}
+
+    .small{
+      font-size:12px;
+      color:#777;
+      margin-top:10px;
+    }
+
+    footer{
+      border-top:1px solid var(--border);
+      background:#fff;
+      text-align:center;
+      padding:25px 20px;
+      color:#777;
+      font-size:13px;
+    }
+
+    @media(max-width:800px){
+      .grid{grid-template-columns:1fr}
+      .nav{align-items:flex-start;flex-direction:column}
+      .hero{margin-top:30px}
+      .card{padding:21px}
+    }
+  </style>
+</head>
+
+<body>
+  <div class="topbar"></div>
+
+  <header>
+    <div class="nav">
+      <div class="brand">AAISAHEB<span>.</span></div>
+      <div class="badge">Data Deletion Instructions</div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>User Data Deletion Policy</h1>
+    <p>
+      Aaisaheb respects your privacy and provides a simple process for requesting
+      deletion of personal information associated with your account or interactions
+      with our services.
+    </p>
+    <div class="updated">Last Updated: September 16, 2026</div>
+  </section>
+
+  <main>
+    <div class="grid">
+
+      <section>
+        <div class="card">
+          <h2>How to Request Data Deletion</h2>
+          <p>
+            If you would like Aaisaheb to delete your personal data, please submit
+            a deletion request using the contact details below. Please include
+            enough information for us to identify your account or interaction.
+          </p>
+
+          <div class="steps">
+            <div class="step">
+              <div class="num">1</div>
+              <div>
+                <strong>Send a deletion request</strong><br>
+                Contact us using the email address or WhatsApp/contact method
+                provided on this page.
+              </div>
+            </div>
+
+            <div class="step">
+              <div class="num">2</div>
+              <div>
+                <strong>Provide identification details</strong><br>
+                Provide your name, registered phone/email, and any relevant
+                account or order information.
+              </div>
+            </div>
+
+            <div class="step">
+              <div class="num">3</div>
+              <div>
+                <strong>Verification</strong><br>
+                We may verify the request to make sure the data belongs to the
+                requesting person.
+              </div>
+            </div>
+
+            <div class="step">
+              <div class="num">4</div>
+              <div>
+                <strong>Deletion</strong><br>
+                After verification, eligible personal data will be deleted or
+                anonymized, subject to legal and operational requirements.
+              </div>
+            </div>
+          </div>
+
+          <div class="notice">
+            <strong>Important:</strong> Some information may need to be retained
+            where required by applicable law, for legitimate legal obligations,
+            fraud prevention, dispute resolution, accounting, or security.
+            Retained information will not be used for unrelated purposes.
+          </div>
+        </div>
+
+        <div class="card">
+          <h2>What Data May Be Deleted?</h2>
+          <p>Depending on how you use Aaisaheb services, deletion may include:</p>
+          <ul>
+            <li>Name and profile information</li>
+            <li>Phone number and email address</li>
+            <li>Account-related information</li>
+            <li>Saved preferences and submitted enquiry information</li>
+            <li>Other personal information that is not required to be retained by law</li>
+          </ul>
+
+          <h2 style="margin-top:24px;">What Happens After a Request?</h2>
+          <p>
+            We will review and verify the request. If the request is valid and
+            the information is eligible for deletion, we will remove or anonymize
+            the applicable personal information from our active systems.
+          </p>
+          <p>
+            Data deletion does not necessarily delete information that must be
+            retained under applicable legal, tax, accounting, security, or
+            regulatory requirements.
+          </p>
+        </div>
+
+        <div class="card">
+          <h2>Facebook / Meta Login or Services</h2>
+          <p>
+            If you used Facebook or another Meta service to interact with Aaisaheb,
+            you can also request deletion of the information associated with that
+            interaction by following the deletion instructions on this page.
+          </p>
+          <p>
+            Please mention that the request relates to your Meta/Facebook-linked
+            data and provide the email address or phone number associated with
+            the interaction so that we can locate the relevant record.
+          </p>
+        </div>
+      </section>
+
+      <aside>
+        <div class="contact-box">
+          <h2>Data Deletion Contact</h2>
+          <p>
+            To request deletion of your personal data, contact Aaisaheb using
+            the details below.
+          </p>
+
+          <!-- CHANGE THESE DETAILS BEFORE PUBLISHING -->
+          <div class="contact-item">
+            <strong>Email</strong>
+            <a href="mailto:YOUR-EMAIL@example.com">
+              YOUR-EMAIL@example.com
+            </a>
+          </div>
+
+          <div class="contact-item">
+            <strong>WhatsApp / Phone</strong>
+            <a href="https://wa.me/91XXXXXXXXXX" target="_blank" rel="noopener">
+              +91 XXXXXXXXXX
+            </a>
+          </div>
+
+          <div class="contact-item">
+            <strong>Business</strong>
+            Aaisaheb
+          </div>
+        </div>
+
+        <div class="request">
+          <h2>Quick Request</h2>
+          <p>
+            This form prepares an email request. Replace the email address in
+            the code with your actual Aaisaheb privacy/contact email before
+            publishing.
+          </p>
+
+          <form id="deleteForm">
+            <label for="name">Full Name</label>
+            <input id="name" required placeholder="Enter your name">
+
+            <label for="contact">Registered Email / Phone</label>
+            <input id="contact" required placeholder="Email or phone number">
+
+            <label for="details">Request Details</label>
+            <textarea id="details" required placeholder="Please describe the data you want deleted."></textarea>
+
+            <button type="submit">Create Data Deletion Email</button>
+
+            <div class="small">
+              Your email application will open with the request details.
+            </div>
+          </form>
+        </div>
+      </aside>
+
+    </div>
+  </main>
+
+  <footer>
+    © 2026 Aaisaheb. All rights reserved.
+    <br>
+    This page provides instructions for requesting deletion of personal data.
+  </footer>
+
+  <script>
+    /*
+      IMPORTANT:
+      Replace this email address with the real Aaisaheb privacy/support email.
+    */
+    const DELETION_EMAIL = "YOUR-EMAIL@example.com";
+
+    document.getElementById("deleteForm").addEventListener("submit", function(e){
+      e.preventDefault();
+
+      const name = document.getElementById("name").value.trim();
+      const contact = document.getElementById("contact").value.trim();
+      const details = document.getElementById("details").value.trim();
+
+      const subject = encodeURIComponent("Aaisaheb - User Data Deletion Request");
+      const body = encodeURIComponent(
+        "Hello Aaisaheb Team,\n\n" +
+        "I would like to request deletion of my personal data.\n\n" +
+        "Full Name: " + name + "\n" +
+        "Registered Email / Phone: " + contact + "\n\n" +
+        "Request Details:\n" + details +
+        "\n\nPlease confirm once my eligible personal data has been deleted or anonymized.\n\nThank you."
+      );
+
+      window.location.href =
+        "mailto:" + DELETION_EMAIL +
+        "?subject=" + subject +
+        "&body=" + body;
+    });
+  </script>
+</body>
+</html>
