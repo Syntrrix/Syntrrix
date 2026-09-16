@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Terms of Service | Aaisaheb Business</title>
+  <meta
+    name="description"
+    content="Terms of Service for Aaisaheb Business. Please review the terms and conditions governing your use of our website and services."
+  >
+
+  <style>
+    :root {
+      --primary: #7c3aed;
+      --primary-dark: #5b21b6;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --background: #f8fafc;
+      --card: #ffffff;
+      --border: #e5e7eb;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.7;
+      color: var(--text);
+      background: var(--background);
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+      color: white;
+      padding: 70px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 17px;
+      opacity: 0.9;
+    }
+
+    .container {
+      width: min(100% - 40px, 900px);
+      margin: 40px auto;
+    }
+
+    .terms-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 45px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+    }
+
+    .effective-date {
+      color: var(--muted);
+      margin-bottom: 35px;
+      font-size: 14px;
+    }
+
+    .terms-section {
+      margin-bottom: 35px;
+    }
+
+    .terms-section h2 {
+      font-size: 24px;
+      color: #111827;
+      margin-bottom: 12px;
+    }
+
+    .terms-section p {
+      margin-bottom: 12px;
+    }
+
+    ul {
+      margin: 12px 0 0 25px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .notice-box {
+      background: #f5f3ff;
+      border-left: 4px solid var(--primary);
+      padding: 22px;
+      border-radius: 8px;
+      margin: 20px 0;
+    }
+
+    .notice-box strong {
+      color: #111827;
+    }
+
+    .contact-box {
+      background: #f5f3ff;
+      border-left: 4px solid var(--primary);
+      padding: 22px;
+      border-radius: 8px;
+      margin-top: 15px;
+    }
+
+    .contact-box strong {
+      color: #111827;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    footer a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        padding: 50px 20px;
+      }
+
+      header h1 {
+        font-size: 32px;
+      }
+
+      .container {
+        width: min(100% - 24px, 900px);
+        margin: 25px auto;
+      }
+
+      .terms-card {
+        padding: 25px 20px;
+      }
+
+      .terms-section h2 {
+        font-size: 21px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Terms of Service</h1>
+    <p>Aaisaheb Business</p>
+  </header>
+
+  <main class="container">
+    <article class="terms-card">
+
+      <p class="effective-date">
+        <strong>Effective Date:</strong> [Insert Date]
+      </p>
+
+      <section class="terms-section">
+        <h2>1. Acceptance of Terms</h2>
+
+        <p>
+          Welcome to <strong>Aaisaheb Business</strong> ("we," "our," "us,"
+          or "Aaisaheb Business"). These Terms of Service ("Terms") govern
+          your access to and use of our website, products, and services.
+        </p>
+
+        <p>
+          By accessing or using our website or services, you agree to be
+          bound by these Terms. If you do not agree with any part of these
+          Terms, please do not use our website or services.
+        </p>
+      </section>
+
+      <section class="terms-section">
+        <h2>2. Our Services</h2>
+
+        <p>
+          Aaisaheb Business provides products and/or services as described
+          on our website and through our business channels.
+        </p>
+
+        <p>
+          We reserve the right to modify, suspend, or discontinue any part
+          of our website or services at any time, with or without notice,
+          where permitted by applicable law.
+        </p>
+      </section>
+
+      <section class="terms-section">
+        <h2>3. Eligibility</h2>
+
+        <p>
+          You must be legally capable of entering into a binding agreement
+          under applicable law to use our services.
+        </p>
+
+        <p>
+          If you use our services on behalf of a company, organization, or
+          other entity, you represent that you have the authority to bind
+          that entity to these Terms.
+        </p>
+      </section>
+
+      <section class="terms-section">
+        <h2>4. User Responsibilities</h2>
+
+        <p>
+          When using our website or services, you agree to provide accurate
+          information and to use our services lawfully.
+        </p>
+
+        <p>You agree not to:</p>
+
+        <ul>
+          <li>
+            Use our website or services for unlawful or fraudulent purposes.
+          </li>
+          <li>
+            Attempt to gain unauthorized access to our systems or accounts.
+          </li>
+          <li>
+            Interfere with or disrupt the operation or security of our website.
+          </li>
+          <li>
+            Upload or transmit malicious software, viruses, or harmful code.
+          </li>
+          <li>
+            Copy, reproduce, modify, or distribute our content without
+            appropriate permission.
+          </li>
+          <li>
+            Impersonate another person or entity.
+          </li>
+          <li>
+            Use our services in a manner that violates applicable laws
+            or regulations.
+          </li>
+        </ul>
+      </section>
+
+      <section class="terms-section">
+        <h2>5. Orders and Payments</h2>
+
+        <p>
+          If our services involve purchases or payments, you agree to provide
+          accurate billing and payment information.
+        </p>
+
+        <p>
+          Prices, fees, taxes, payment terms, and other applicable charges
+          will be communicated to you at the time of purchase or service
+          engagement, where applicable.
+        </p>
+
+        <p>
+          We reserve the right to correct pricing or other errors and to
+          cancel or modify an order where permitted by applicable law.
+        </p>
+      </section>
+
+      <section class="terms-section">
+        <h2>6. Refunds and Cancellations</h2>
+
+        <p>
+          Refunds, cancellations, exchanges, or returns, where applicable,
+          will be handled according to the refund or cancellation terms
+          communicated by Aaisaheb Business for the relevant product or service.
+        </p>
+
+        <div class="notice-box">
+          <strong>Important:</strong>
+          Please review any product-specific or service-specific refund and
+          cancellation conditions before completing a purchase.
+        </div>
+      </section>
+
+      <section class="terms-section">
+        <h2>7. Intellectual Property</h2>
+
+        <p>
+          Unless otherwise stated, the website and its contents, including
+          text, graphics, logos, images, designs, software, and other
+          materials, are owned by or licensed to Aaisaheb Business.
+        </p>
+
+        <p>
+          You may not reproduce, modify, distribute, publicly display,
+          sell, or otherwise exploit our intellectual property without
+          prior written permission, except where permitted by law.
+        </p>
+      </section>
+
+      <section class="terms-section">
+        <h2>8. Third-Party Services and Links</h2>
+
+        <p>
+          Our website may contain links to third-party websites, applications,
+          payment providers, or other services.
+        </p>
+
+        <p>
+          We do not control third-party services and are not responsible for
+          their content, availability, security, or privacy practices.
+        </p>
+
+        <p>
+          Your use of third-party services may be subject to their own
+          terms and policies.
+        </p>
+      </section>
+
+      <section class="terms-section">
+        <h2>9. Disclaimer</h2>
+
+        <p>
+          We make reasonable efforts to provide accurate and reliable
+          information on our website. However, unless otherwise required
+          by applicable law, we do not guarantee that the website or its
+          content will always be complete, accurate, uninterrupted,
+          secure, or error-free.
+        </p>
+
+        <p>
+          Information provided on our website should not be interpreted as
+          professional, legal, financial, medical, or other specialized
+          advice unless expressly stated otherwise.
+        </p>
+      </section>
+
+      <section class="terms-section">
+        <h2>10. Limitation of Liability</h2>
+
+        <p>
+          To the maximum extent permitted by applicable law, Aaisaheb Business
+          and its owners, employees, representatives, or service providers
+          will not be liable for indirect, incidental, special, consequential,
+          or punitive damages arising from your use of, or inability to use,
+          our website or services.
+        </p>
+
+        <p>
+          Nothing in these Terms is intended to exclude or limit liability
+          that cannot legally be excluded or limited under applicable law.
+        </p>
+      </section>
+
+      <section class="terms-section">
+        <h2>11. Indemnification</h2>
+
+        <p>
+          To the extent permitted by applicable law, you agree to indemnify
+          and hold harmless Aaisaheb Business and its representatives from
+          claims, losses, liabilities, damages, costs, and expenses arising
+          from your unlawful use of our website or services, violation of
+          these Terms, or infringement of another party's rights.
+        </p>
+      </section>
+
+      <section class="terms-section">
+        <h2>12. Suspension or Termination</h2>
+
+        <p>
+          We may suspend or terminate your access to our website or services
+          if we reasonably believe that you have violated these Terms,
+          applicable law, or otherwise misused our services.
+        </p>
+
+        <p>
+          Any provisions that by their nature should survive termination
+          will continue to apply after termination.
+        </p>
+      </section>
+
+      <section class="terms-section">
+        <h2>13. Privacy</h2>
+
+        <p>
+          Your use of our website and services is also subject to our
+          Privacy Policy, which explains how we collect, use, store, and
+          protect personal information.
+        </p>
+
+        <p>
+          Please review our
+          <a href="privacy-policy.html">Privacy Policy</a>
+          for more information.
+        </p>
+      </section>
+
+      <section class="terms-section">
+        <h2>14. Changes to These Terms</h2>
+
+        <p>
+          We may update these Terms from time to time to reflect changes
+          to our services, business practices, or applicable legal requirements.
+        </p>
+
+        <p>
+          Updated Terms will be posted on this page with a revised
+          "Effective Date."
+        </p>
+
+        <p>
+          Your continued use of our website or services after updated Terms
+          are posted constitutes acceptance of the updated Terms, to the
+          extent permitted by applicable law.
+        </p>
+      </section>
+
+      <section class="terms-section">
+        <h2>15. Governing Law</h2>
+
+        <p>
+          These Terms shall be governed by and interpreted in accordance
+          with the applicable laws of India, unless applicable law requires
+          otherwise.
+        </p>
+
+        <p>
+          Any disputes will be subject to the jurisdiction of the courts
+          applicable to Aaisaheb Business's place of operation, subject to
+          applicable law.
+        </p>
+      </section>
+
+      <section class="terms-section">
+        <h2>16. Severability</h2>
+
+        <p>
+          If any provision of these Terms is found to be invalid or
+          unenforceable, that provision will be interpreted or modified
+          to the extent necessary to make it enforceable, and the remaining
+          provisions will continue in full force and effect.
+        </p>
+      </section>
+
+      <section class="terms-section">
+        <h2>17. Entire Agreement</h2>
+
+        <p>
+          These Terms, together with any additional terms or policies
+          specifically referenced herein, constitute the agreement between
+          you and Aaisaheb Business concerning your use of our website and
+          services, unless a separate written agreement applies.
+        </p>
+      </section>
+
+      <section class="terms-section">
+        <h2>18. Contact Us</h2>
+
+        <p>
+          If you have questions, concerns, or requests regarding these
+          Terms of Service, please contact us.
+        </p>
+
+        <div class="contact-box">
+          <p><strong>Aaisaheb Business</strong></p>
+          <p>Address: [Insert Business Address]</p>
+
+          <p>
+            Email:
+            <a href="mailto:your-email@example.com">
+              [Insert Business Email]
+            </a>
+          </p>
+
+          <p>Phone: [Insert Phone Number]</p>
+
+          <p>
+            Website:
+            <a href="[Insert Website URL]">
+              [Insert Website URL]
+            </a>
+          </p>
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <footer>
+    <p>
+      &copy; <span id="year"></span> Aaisaheb Business.
+      All rights reserved.
+    </p>
+
+    <p style="margin-top: 8px;">
+      <a href="privacy-policy.html">Privacy Policy</a>
+      &nbsp; | &nbsp;
+      <a href="terms-of-service.html">Terms of Service</a>
+    </p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
